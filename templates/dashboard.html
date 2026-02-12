@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bot Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Telegram Bot Dashboard</h1>
+
+    <div class="card">
+        <h3>Total Users: {{ users }}</h3>
+    </div>
+
+    <div class="card">
+        <h3>Auto Reply: {{ auto }}</h3>
+        <form method="POST">
+            <button name="toggle_auto">Toggle Auto Reply</button>
+        </form>
+    </div>
+
+    <div class="card">
+        <h3>Change Auto Reply Message</h3>
+        <form method="POST">
+            <input type="text" name="new_reply" placeholder="New message">
+            <button type="submit">Update</button>
+        </form>
+    </div>
+
+    <div class="card">
+        <h3>Broadcast Message</h3>
+        <form method="POST">
+            <textarea name="broadcast" placeholder="Send to all users"></textarea>
+            <button type="submit">Send Broadcast</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
