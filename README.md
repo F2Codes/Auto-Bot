@@ -15,3 +15,6 @@ $ git clone https://github.com/F2Codes/Auto-Bot.git
 - Changes:
   - Using Aiogram instead.
   - Add Colored Inline Buttons / keyboard.
+
+This repo Is Archived use this instead:
+[New Repo] (https://github.com/F2Codes/make-bot)
